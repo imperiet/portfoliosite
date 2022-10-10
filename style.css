@@ -64,25 +64,37 @@ nav>a {
 nav>a:hover {
     transform: rotate(2deg);
     background-color: white;
+    box-shadow: black 0px 20px 100px -10px;
 }
 
 a>h2,
 a>p,
 a>h3 {
-    margin: 3px 10px;
-    font-size: 0.9em;
+    margin: 5px 25px;
+    font-size: .9em;
+}
+
+a>h3{
+    padding-bottom: 10px;
+}
+
+a>p {
+    color: rgb(94, 94, 94);
+    font-weight: lighter;
+    margin-bottom: auto;
 }
 
 a>h2 {
-    border-bottom: solid black 4px;
+    border-bottom: solid rgb(94, 94, 94) 1px;
     padding-bottom: 5px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     margin-top: 20px;
 }
 
 h3 {
-    color: gray;
-    border-top: solid gray 2px;
+    color: rgb(153, 147, 135);
+    border-top: solid rgb(153, 147, 135) 1px;
+    padding-top: 5px;
     padding-bottom: 2px;
     font-size: 1.2;
 }
@@ -90,6 +102,7 @@ h3 {
 a>img {
     height: 300px;
     width: 300px;
+    object-fit: cover;
 }
 
 footer {

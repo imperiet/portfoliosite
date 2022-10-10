@@ -36,6 +36,8 @@ header>img {
 main iframe,
 main img {
     width: 100%;
+    margin-top: 40px;
+    margin-bottom:40px;
 }
 
 h1 {
@@ -113,4 +115,8 @@ footer>a {
 p>a,
 h4>a {
     color: darkred;
+}
+
+br{
+    margin-bottom: 10px;
 }
